@@ -101,10 +101,10 @@ In a separate terminal, run the following command to compile your assets:
 npm run dev
 ```
 
-## API Testing
+### 10. API Testing
 To test the API, you can use [Postman](https://www.postman.com) or any other API testing tool. Be sure to add the `Access-Token` header with the correct token value (`abc` in this case) for routes protected by the `VerifyAccessToken` middleware.
 
-### Create a Short URL
+#### Create a Short URL
 POST `/api/short-link` <br>
 Request body:
 ```json
@@ -119,10 +119,10 @@ Response:
   "message": "Link created successfully"
 }
 ```
-### Redirect to Original URL
+#### Redirect to Original URL
 GET `/your-slug` <br>
 Redirects to the original long URL associated with the provided slug.
 
-## Error Handling
+#### Error Handling
 - 404 Not Found: When a non-existent slug is accessed.
 - 500 Internal Server Error: For database or other server-side issues.
