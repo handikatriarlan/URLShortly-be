@@ -30,12 +30,12 @@ URLShortly is a URL shortener service built using Laravel for the backend, which
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/handikatriarlan/urlshortly-be.git
+git clone https://github.com/handikatriarlan/URLShortly-be.git
 ```
 
 ### 2. Navigate to the Project Directory
 ```bash
-cd urlshortly-be
+cd URLShortly-be
 ```
 
 ### 3. Install PHP Dependencies
